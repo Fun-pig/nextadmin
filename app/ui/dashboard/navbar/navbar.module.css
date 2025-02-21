@@ -1,0 +1,42 @@
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--bgSoft);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: var(--textSoft);
+  font-weight: bold;
+  /* 文本中的每个单词以大写字母开头。 */
+  text-transform: capitalize; 
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #2e374a;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--textSoft);
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
